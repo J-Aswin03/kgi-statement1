@@ -15,7 +15,7 @@ touch filename.txt
 
 2. Add the file to Git
 
-bash 
+bash 1
 
 git add filename.txt
 
