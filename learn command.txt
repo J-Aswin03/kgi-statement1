@@ -1,0 +1,38 @@
+command for switch to main branch
+	 git checkout main
+2 code for commit id
+	git log --oneline
+3 Pull the latest changes from GitHub	
+git pull origin main
+
+Method 1: Command Line (Git Workflow)
+
+1. Create the file locally
+
+echo "Your content here" > filename.txt
+
+touch filename.txt
+
+2. Add the file to Git
+
+bash 
+
+git add filename.txt
+
+3. Commit the file
+
+bash 
+
+git commit -m "Add filename.txt"
+
+. Push to GitHub
+
+bash 
+
+git push origin main
+
+
+Make sure you’re on the correct branch
+bash
+git checkout main
+(replace main with your branch name if different)
